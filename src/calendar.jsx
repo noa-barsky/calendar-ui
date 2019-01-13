@@ -92,7 +92,7 @@ class Buttons extends React.Component {
       <button type="button" class="btn btn-primary btn-lg" onClick={this.printFunc}>Print</button>
       </div>
       <div class="col-md-6">
-      <div class="float-right"><a href="mailto:"><button type="button" class="btn btn-secondary btn-lg">Code</button> </a></div>
+      <div class="float-right"><a href="https://github.com/noa-barsky/calendar-ui"><button type="button" class="btn btn-secondary btn-lg">Code</button> </a></div>
       
       </div>
       
