@@ -1,0 +1,151 @@
+
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300');
+
+body {
+    background-image: url("background.jpg")
+}
+.title{
+    text-align: center;
+    padding: 1%;
+}
+
+textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+textarea:focus, 
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active
+{
+    outline:0px !important;
+    -webkit-appearance:none;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline:0px !important;
+    -webkit-appearance:none;
+    border: none !important;
+}
+
+.title select {
+    height: 75px;
+    
+}
+
+.title select {
+  /* for Firefox */
+  -moz-appearance: none;
+  /* for Chrome */
+  -webkit-appearance: none;
+}
+
+
+.title select{
+    padding-left: 45%;
+    font-size: 3em;
+    font-weight: 500;
+    color: #262626;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+.week-title, .card-group{
+    text-align: center;
+}
+
+
+.week-title, .card, .card-body {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    padding:0;
+    margin:0;
+  
+}
+
+.week-title p{
+    padding-top: 17%;
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #262626;
+}
+
+.days, .card, .card-body{
+    padding: 0;
+    margin: 0;
+    height: 100px;
+    width: auto;
+    border-color: white;
+}
+
+.days, .card, .card-body textarea {
+    text-align: left;
+    height: 100%;
+    width: 100%;
+    padding:0;
+    margin:0;
+    resize: none;
+    border-radius: 2px;
+    border-color: #B7C6D6;
+    color: #262626;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.btns {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-family: 'Montserrat', sans-serif;
+}
+button{
+    background-color: #287A7A !important;
+    border-color: #287A7A!important;
+}
+
+#box-1, #box-2, #box-3,
+#box-4, #box-5, #box-6,
+#box-7, #box-8,#box-9,
+#box-10, #box-11,#box-12,
+#box-13,#box-14,#box-15,
+#box-16,#box-17,#box-18,#box-19,
+#box-20,#box-21,#box-22,
+#box-23,#box-24,#box-25,
+#box-26,#box-27,#box-28,
+#box-29,#box-30,#box-31,
+#box-32,#box-33,#box-34,
+#box-35{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-top: 1.5%;
+    /* padding-right: 87%; */
+    margin: 0;
+    font-weight: bold;
+    font-size: 0.95em;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+#box-4{
+    width: 15%;
+    border: none;
+
+}
+
+  #htmlcode {
+    border: 0;
+    padding-left: 6%;
+    width: 100%;
+    max-width: 100%;
+    height: calc(100% - 1.2em);
+    margin-top: 1.2em; /* prevents the code from going behind the label */
+    
+  }
