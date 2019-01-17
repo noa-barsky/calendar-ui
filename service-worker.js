@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/noa-barsky/calendar-ui/precache-manifest.d3c73c574ffe7d0635b4547ef129f9b6.js"
+  "/calendar-ui/precache-manifest.cbe05eacb5d50ae4dc2bebd67dee626d.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/noa-barsky/calendar-ui/index.html", {
+workbox.routing.registerNavigationRoute("/calendar-ui/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
