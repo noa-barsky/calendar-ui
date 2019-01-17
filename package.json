@@ -1,11 +1,10 @@
 {
   "name": "react-app",
   "version": "0.1.0",
-  "homepage": "https://github.com/noa-barsky/calendar-ui",
+  "homepage": "https://noa-barsky.github.io/calendar-ui/",
   "private": true,
   "dependencies": {
     "bootstrap": "^4.2.1",
-    "gh-pages": "^1.0.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-scripts": "^2.1.3"
@@ -26,12 +25,5 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ],
-  "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1",
-    "babel-preset-stage-2": "^6.24.1",
-    "gh-pages": "^2.0.1"
-  }
+  ]
 }
